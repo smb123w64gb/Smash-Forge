@@ -268,8 +268,8 @@ namespace Smash_Forge
                 int offset = readOffset(f);
                 int NextFMDL = f.pos();
                 f.seek(offset);
-                FMDL modelTest = new FMDL();
-                modelTest.Read(f);
+                //FMDL modelTest = new FMDL();
+                //modelTest.Read(f);
                 f.seek(offset + 4);
                 FMDLheader fmdl_info = new FMDLheader
                 {
